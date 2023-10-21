@@ -1247,6 +1247,106 @@ section {
   margin-left: 8px;
 }
 
+
+
+.doctors .member1 {
+  position: relative;
+  box-shadow: 24px 28px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.doctors .member1 .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.doctors .member1 .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.doctors .member1:hover img {
+  transform: scale(1.1);
+}
+
+.doctors .member1 .member-info {
+  padding-left: 30px;
+}
+
+.doctors .member1 h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #2c4964;
+}
+
+.doctors .member1 span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.doctors .member1 span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+.doctors .member1 p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.doctors .member1 .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.doctors .member1 .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+.doctors .member1 .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.doctors .member1 .social a:hover {
+  background: #1977cc;
+}
+
+.doctors .member1 .social a+a {
+  margin-left: 8px;
+}
+
+
+#morillas{
+  --bs-gutter-x: -35.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
