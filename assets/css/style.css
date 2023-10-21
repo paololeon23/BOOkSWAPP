@@ -1339,7 +1339,7 @@ section {
 
 
 #morillas{
-  --bs-gutter-x: -35.5rem;
+  --bs-gutter-x: 0.5rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
